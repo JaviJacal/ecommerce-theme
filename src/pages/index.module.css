@@ -17,17 +17,19 @@
 
 
 .messageContainer {
+    max-width: 800px;
     text-align: center;
-    padding: 60px 0px;
-    margin: 0px 30px;
+    padding: 20px;
+    margin: auto; /* Centra el contenedor en la dirección horizontal */
 }
 
 .messageContainer p {
-    text-transform: uppercase;
+    text-transform: none; /* Considera quitar las mayúsculas para mejorar la legibilidad */
     font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
+    font-size: 16px; /* Un tamaño de fuente ligeramente mayor */
+    line-height: 1.6; /* Un line-height mayor para más espacio entre líneas */
+    text-align: left;
+    margin-bottom: 20px; /* Añade un poco de espacio entre los párrafos */
 }
 
 .gold {

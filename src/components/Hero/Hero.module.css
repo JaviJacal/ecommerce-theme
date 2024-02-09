@@ -24,17 +24,23 @@
 .title {
     font-size: 72px;
     line-height: 86px;
-    font-weight: normal;
+    font-weight: bold; /* Hacer el texto más grueso para destacar */
     text-align: center;
     white-space: pre-wrap;
+    color: #ffffff; /* Color blanco para contraste con el fondo oscuro */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejorar la legibilidad */
 }
 
 .subtitle {
-    
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 30px; /* Ajusta esto según sea necesario */
+    line-height: 30px; /* Aumenta esto para mejorar el espaciado entre líneas */
     text-align: center;
+    margin: 0 auto; /* Centra el subtítulo horizontalmente y proporciona espacio arriba y abajo */
+    padding: 0 10px; /* Añade algo de espacio a los lados si es necesario */
+    max-width: 90%; /* Ajusta esto para controlar el ancho del contenedor del subtítulo */
+    color: #FFD700; /* Igual que el título, para mantener la coherencia */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra más suave que el título */
 }
 
 .ctaButton {

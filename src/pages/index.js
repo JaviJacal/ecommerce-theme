@@ -29,23 +29,20 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2021'}
-        ctaText={'shop now'}
+        image={'/tarot1.png'}
+        title={'Descubre Tu Destino'}
+        subtitle={'Lecturas de Tarot Online para Iluminar Tu Camino Hacia el Futuro'}
+        ctaText={'Consulta de tarot con Rada'}
         ctaAction={goToShop}
       />
 
       {/* Message Container */}
       <div className={styles.messageContainer}>
-        <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
-        </p>
-        <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
-        </p>
+        
+        <h3>Bienvenido a {' '} <span className={styles.gold}>Tarot con Rada</span></h3>
+        <p>Donde cada carta revela un secreto, y cada lectura, un camino hacia la comprensión y el autodescubrimiento. En un mundo lleno de incertidumbres, nuestras lecturas de tarot te ofrecen una <span class="destacado">guía espiritual y respuestas claras</span> a tus dudas más profundas.</p>
+        <p>¿Te encuentras en una encrucijada? ¿Buscas comprender mejor tu pasado, presente o futuro? Permítenos acompañarte en este viaje místico hacia la iluminación personal. Con {' '} <span className={styles.gold}>Tarot con Rada</span>, no estás solo en la búsqueda de tu destino.</p>
+        <p>Explora las posibilidades, descubre tu verdadero yo y toma las riendas de tu futuro hoy. Emprende este viaje transformador con nosotros y deja que las cartas te guíen hacia los secretos que el universo tiene reservado para ti.</p>
       </div>
 
       {/* Collection Container */}

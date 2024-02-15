@@ -27,15 +27,15 @@
       "subTitle": "Info",
       "links": [
         {
-          "text": "About Us",
+          "text": "Acerca de nosotros",
           "link": "/about"
         },
         {
-          "text": "Journal",
+          "text": "Blog",
           "link": "/blog"
         },
         {
-          "text": "Privacy Policy",
+          "text": "Política de privacidad",
           "link": "/support#policy"
         }
       ]
@@ -64,7 +64,7 @@
   ],
   "headerLinks": [
     {
-      "menuLabel": "Shop",
+      "menuLabel": "Servicios",
       "menuLink": "/shop",
       "category": [
         {
@@ -129,13 +129,18 @@
       ]
     },
     {
-      "menuLabel": "journal",
+      "menuLabel": "Blog",
       "menuLink": "/blog",
       "category": null
     },
     {
-      "menuLabel": "About",
+      "menuLabel": "Acerca de nosotros",
       "menuLink": "/about",
+      "category": null
+    },
+    {
+      "menuLabel": "Testimonios",
+      "menuLink": "/testimonios",
       "category": null
     }
   ],

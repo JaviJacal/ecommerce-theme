@@ -1,9 +1,12 @@
 .root {
     width: 100%;
     min-height: 630px;
+    object-fit: cover; /* This will cover the area, cropping the image as needed */
 
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center; /* Centers the background image within the element */
+
 
     position: relative;
     cursor: pointer;
@@ -34,6 +37,21 @@
 }
 
 .text {
+    color: var(--standard-white);
+    display: block;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    max-width: 600px; /* Or any max width that fits your design */
+    margin: auto; /* This will center the text block if it's a smaller width than the container */
+}
+
+.texta {
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;

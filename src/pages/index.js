@@ -48,7 +48,7 @@ const IndexPage = () => {
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'New Collection'} />
+          <Title name={'Nuestras opciones'} />
           <ProductCollectionGrid />
         </Container>
       </div>
@@ -56,7 +56,7 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
+          <Title name={'Testimonios'} link={'/shop'} />
           <ProductCardGrid
             spacing={true}
             showSlider
@@ -75,9 +75,9 @@ const IndexPage = () => {
             altImage={'highlight image'}
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
-            textLink={'shop now'}
+            title={'Experiencia'}
+            description={`En la esencia de nuestra existencia y en los momentos más críticos de nuestras vidas, a menudo buscamos señales, orientación, un faro que ilumine nuestro camino. Aquí, en el umbral de lo desconocido, es donde Ezequiel, nuestro taroísta experto, se convierte en el guía que muchos han anhelado. Con una sabiduría que trasciende lo ordinario y un don que ha sido afilado a través de años de dedicación, Ezequiel ha sido el artífice detrás de innumerables historias de transformación personal.`}
+            textLink={'Conocer más'}
             link={'/shop'}
           />
         </Container>
@@ -85,7 +85,7 @@ const IndexPage = () => {
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
+        <Hero image={'/banner2.png'} title={`-50% de descuento \n en la primera lectura`} />
         <div className={styles.linkContainers}>
           <Link to={'/shop'}>WOMAN</Link>
           <Link to={'/shop'}>MAN</Link>
@@ -95,16 +95,16 @@ const IndexPage = () => {
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'Acerca de nosotros'}
         quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
+          '“Creemos en dos pilares fundamentales: la precisión y profundidad de nuestras lecturas de tarot, y el acompañamiento genuino en el viaje espiritual de cada individuo. Con estos principios, el camino hacia el autoconocimiento y la claridad en la vida se despliega ante nosotros.”'
         }
       />
 
       {/* Blog Grid */}
       <div className={styles.blogsContainer}>
         <Container size={'large'}>
-          <Title name={'Journal'} subtitle={'Notes on life and style'} />
+          <Title name={'Blog'} subtitle={'Descubre las perspectivas más impactantes en el universo del tarot.'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
       </div>
@@ -126,8 +126,8 @@ const IndexPage = () => {
       {/* Social Media */}
       <div className={styles.socialContainer}>
         <Title
-          name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
+          name={'Nos dedicamos a ti'}
+          subtitle={'Menciona @tarotConRada para destacar en nuestras redes.'}
         />
         <div className={styles.socialContentGrid}>
           <img src={`/social/socialMedia1.png`} alt={'social media 1'} />

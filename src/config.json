@@ -27,7 +27,7 @@
       "subTitle": "Info",
       "links": [
         {
-          "text": "Acerca de nosotros",
+          "text": "Conócenos",
           "link": "/about"
         },
         {
@@ -134,7 +134,7 @@
       "category": null
     },
     {
-      "menuLabel": "Acerca de nosotros",
+      "menuLabel": "Conócenos",
       "menuLink": "/about",
       "category": null
     },

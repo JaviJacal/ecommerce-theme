@@ -69,10 +69,11 @@ const Footer = (prop) => {
             })}
             <div className={styles.newsLetter}>
               <div className={styles.newsLetterContent}>
-                <span className={styles.linkTitle}>Newsletter</span>
+                <span className={styles.linkTitle}>Boletín de Noticias</span>
                 <p className={styles.promoMessage}>
-                  Get 15% off your first purchase! Plus, be the first to know
-                  about sales, new product launches and exclusive offers!
+                ¡Obtén un 15% de descuento en tu primera compra! Además, sé de los primeros en enterarte de las novedades,
+                 lanzamientos de nuevos productos y ofertas exclusivas al suscribirte a nuestro boletín de noticias de tarot.
+                  ¡No te pierdas esta oportunidad de estar al tanto de todo lo relacionado con el mundo del tarot y disfrutar de descuentos especiales! Suscríbete ahora mismo para recibir beneficios exclusivos.
                 </p>
                 <form
                   className={styles.newsLetterForm}
@@ -82,7 +83,7 @@ const Footer = (prop) => {
                     icon={'arrow'}
                     id={'newsLetterInput'}
                     value={email}
-                    placeholder={'Email'}
+                    placeholder={'Correo electrónico'}
                     handleChange={(_, e) => setEmail(e)}
                   />
                 </form>
@@ -137,10 +138,9 @@ const Footer = (prop) => {
           <div className={styles.contentBottom}>
             <div className={styles.settings}>
               <Dropdown
-                label={'Country/Region'}
+                label={'País/Region'}
                 optionList={Config.currencyList}
               />
-              <Dropdown label={'Language'} optionList={Config.languageList} />
             </div>
             <div className={styles.copyrightContainer}>
               <div className={styles.creditCardContainer}>

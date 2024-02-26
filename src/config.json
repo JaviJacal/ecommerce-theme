@@ -24,7 +24,7 @@
   },
   "footerLinks": [
     {
-      "subTitle": "Info",
+      "subTitle": "Información",
       "links": [
         {
           "text": "Conócenos",
@@ -41,23 +41,15 @@
       ]
     },
     {
-      "subTitle": "Support",
+      "subTitle": "Soporte",
       "links": [
         {
           "text": "FAQ",
           "link": "/faq"
         },
         {
-          "text": "Contact Us",
+          "text": "Contáctanos",
           "link": "/support#contact"
-        },
-        {
-          "text": "Shipping & Returns",
-          "link": "/support#returns"
-        },
-        {
-          "text": "How to use this theme",
-          "link": "/how-to-use"
         }
       ]
     }

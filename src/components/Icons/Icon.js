@@ -11,6 +11,7 @@ import CreditCard from './CreditCard';
 import Cross from './Cross';
 import Cycle from './Cycle';
 import Delivery from './Delivery';
+import Earth from './Earth';
 import Facebook from './Facebook';
 import FacebookInverse from './FacebookInverse';
 import Filter from './Filter';
@@ -52,6 +53,8 @@ function Icon(props) {
       return <Cycle />;
     case 'delivery':
       return <Delivery />;
+    case 'earth':
+      return <Earth />;
     case 'facebook':
       return <Facebook />;
     case 'facebookinverse':

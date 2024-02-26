@@ -17,6 +17,9 @@
     "plop": "plop"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@netlify/plugin-gatsby": "^3.8.0",
     "cypress": "^10.0.3",
     "gatsby": "^4.5.4",

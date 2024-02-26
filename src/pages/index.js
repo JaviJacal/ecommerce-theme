@@ -85,10 +85,12 @@ const IndexPage = () => {
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={'/banner2.png'} title={`-50% de descuento \n en la primera lectura`} />
+        <Hero image={'/tarot_background/t5.PNG'} title={`-50% de descuento \n en la primera lectura`} />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>WOMAN</Link>
-          <Link to={'/shop'}>MAN</Link>
+          <Link to={'/shop'}>Tarot Vida</Link>
+          <Link to={'/shop'}>Tarot Espiritual</Link>
+          <Link to={'/shop'}>Tarot Decisiones</Link>
+          <Link to={'/shop'}>Tarot Relaciones</Link>
         </div>
       </div>
 
@@ -107,20 +109,6 @@ const IndexPage = () => {
           <Title name={'Blog'} subtitle={'Descubre las perspectivas más impactantes en el universo del tarot.'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
-      </div>
-
-      {/* Promotion */}
-      <div className={styles.sustainableContainer}>
-        <Hero
-          image={'/banner3.png'}
-          title={'We are Sustainable'}
-          subtitle={
-            'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
-          }
-          ctaText={'read more'}
-          maxWidth={'660px'}
-          ctaStyle={styles.ctaCustomButton}
-        />
       </div>
 
       {/* Social Media */}
